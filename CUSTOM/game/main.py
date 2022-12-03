@@ -112,6 +112,10 @@ class Transition:
 		self.radius = vector(self.center).magnitude()
 		self.threshold = self.radius + 100
 
+
+
+
+
 	def display(self, dt):
 		if self.active:
 			self.border_width += 1000 * dt * self.direction
